@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 export const Button = ({ children, variant = 'primary', className = '', onClick, type = "button" }: any) => {
   const baseStyle = "inline-flex items-center justify-center font-semibold rounded-full transition-all duration-300 px-6 py-3";
