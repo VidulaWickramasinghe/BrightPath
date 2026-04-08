@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Link from 'next/link';
 import { Section, Card, Button } from '@/components/UI';
 import { Mail, Phone, Map, Clock, Heart } from 'lucide-react';
 
